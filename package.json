@@ -1,0 +1,30 @@
+{
+  "name": "json-hood",
+  "version": "1.1.4",
+  "description": "A beautiful way to clearly show  JSON Objects and Array in a human readable format",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test/json-hood.js"
+  },
+  "keywords": [
+    "Prettify",
+    "Print",
+    "Json",
+    "beautify",
+    "Arrow"
+  ],
+  "contributors": 
+[
+	{ "name" : "Chris Phillips"},
+	{ "name" : "Charlotte Hutchinson"},
+	{ "name" : "Jack Dunleavy"}
+]
+  "license": "MIT",
+  "dependencies": {
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "describe": "^1.2.0"
+  }
+}
