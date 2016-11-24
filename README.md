@@ -2,7 +2,7 @@
 
 
 ## License 
-The License information is avaliable in license.txt
+The License information is avaliable in license.txt 
 
 
 ##Summary
