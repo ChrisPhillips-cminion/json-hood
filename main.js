@@ -73,7 +73,10 @@ function GetJSONasArrowDiagram(jsonObject, count, output) {
             countClone.push(true);
             arrow = contarrow;
         }
-        if (util.isArray(jsonObject[key])) {
+        if (util.isFunction(jsonObject[key])) {
+
+        }
+        else if (util.isArray(jsonObject[key])) {
             output = output + "\n" + (spacer + arrow + key);
             output = output + processArray(jsonObject[key], countClone);
         } else  if (typeof jsonObject[key] === "object") {
